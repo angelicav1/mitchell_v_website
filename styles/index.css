@@ -1,34 +1,33 @@
 :root {
-    --branding-color: #7399b5;
-    --heading-font-family: "Playfair Display", serif;
-    --default-font-family: "Poppins", sans-serif;
-    --secondary-color:#f7f9f2;
-
+  --branding-color: #7399b5;
+  --heading-font-family: 'Playfair Display', serif;
+  --default-font-family: 'Poppins', sans-serif;
+  --secondary-color: #f7f9f2;
 }
 
 body {
-    font-family: var(--default-font-family);
+  font-family: var(--default-font-family);
 }
 h1,
 h3,
 h4,
 h5,
 h6 {
-    color: #9ad69b;
-    font-family: (var(--heading-font-family));
-    font-weight: bold;
+  color: #9ad69b;
+  font-family: (var(--heading-font-family));
+  font-weight: bold;
 }
 
 h1 {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 h2 {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 h3 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 p {
@@ -55,7 +54,7 @@ p {
   font-size: 24px;
 }
 
-.content-container{
+.content-container {
   padding: 60px 20px;
 }
 
@@ -85,21 +84,23 @@ p {
 }
 
 .background-image {
-    position: relative;
-    width: 100%;
-    text-align: center;
+  width: 70%;
+  height: 75vh;
+  image-resolution: inherit;
+  margin: 0 auto;
 }
 
 .text-container {
-     position: absolute;
-            color: rgb(255, 255, 255);
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(41, 41, 41, 0.8);
-            padding: 0.5rem;
-            text-align: center;
-            font-size: 16px;
+  position: absolute;
+  color: rgba(241, 195, 195, 0.8);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(243, 237, 237);
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 12px;
+  font-family: var(--default-font-family);
 }
 
 .btn-branding {
@@ -113,9 +114,9 @@ p {
 }
 
 .btn-branding-outline {
-color: var(--branding-color);
-border: 1px solid var(--branding-color);
-border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -170,12 +171,12 @@ footer .social-links a:hover {
 }
 
 .project-description {
-    padding: 120px 60px;
+  padding: 120px 60px;
 }
 
 .logo {
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -196,45 +197,58 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #72815F;
+  color: #72815f;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
-nav li.active a  {
+nav li.active a {
   color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
-
-    h1 {
-        font-size: 44px;
-        line-height: 2;
-    }
-
-    h2 {
-        font-size: 44px;
-    }
-
-    h3 {
-      font-size: 26px;
-    }
-
-.content {
-  text-align: center;
-  padding: 0;
+.text-container {
+position:relative;
+line-height: 1;
+font-size: 10px;
 }
 
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
+.background-image {
+  width: 80%;
+}
 
-    .logo-small {
-      width: 40%;
-    }
+.btn-branding {
+  font-size: small;
+}
 
-    nav a {
-      font-size: 12px;
-    }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .logo-small {
+    width: 40%;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
 }
