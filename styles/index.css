@@ -99,6 +99,7 @@ p {
   padding: 0.5rem;
   text-align: center;
   font-size: 12px;
+  line-height: 1.2;
   font-family: var(--default-font-family);
 }
 
@@ -165,7 +166,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: whitesmoke;
+  color: white;
   background: var(--branding-color);
 }
 
