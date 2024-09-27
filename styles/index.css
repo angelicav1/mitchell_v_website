@@ -93,13 +93,13 @@ p {
 .text-container {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 45%;
+  transform: translate(-50%, -40%);
   background-color: rgb(255, 255, 255);
-  padding: 0.5rem;
+  padding: 0 auto;
   text-align: center;
-  font-size: 12px;
-  line-height: 1.2;
+  font-size: 10px;
+  line-height: 1;
   font-family: var(--default-font-family);
 }
 
