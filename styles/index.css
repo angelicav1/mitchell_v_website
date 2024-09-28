@@ -177,7 +177,7 @@ footer .email-link {
 }
 
 .email-link:hover {
-  color: var(--secondary-color);
+  color: #c5dbeb;
   text-decoration: underline;
 }
 
