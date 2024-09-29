@@ -68,7 +68,7 @@ p {
 
 .home {
   margin-right: 10px;
-  margin-left: 900px;
+  margin-left: 800px;
   font-size: large;
 }
 
@@ -77,6 +77,10 @@ p {
 }
 
 .contact {
+  font-size: large;
+}
+
+.work {
   font-size: large;
 }
 
