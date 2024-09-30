@@ -244,6 +244,10 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.mitchell {
+  width: 70%;
+}
+
 @media (max-width: 900px) {
 .container-top {
   display: inline-block;
