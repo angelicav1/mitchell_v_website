@@ -244,11 +244,6 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.badger {
-  font-size: 14px;
-  block-size: auto;
-}
-
 @media (max-width: 900px) {
 .container-top {
   display: inline-block;
