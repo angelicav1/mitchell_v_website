@@ -85,7 +85,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 10px 10px;
 }
 
 .content h1 {
@@ -142,6 +142,16 @@ p {
   padding: 15px 30px;
   text-decoration: none;
   margin-left: 50px;
+}
+
+.btn-branding-2 {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 20px;
+  text-decoration: none;
 }
 
 .btn-branding-outline {
