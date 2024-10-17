@@ -261,18 +261,16 @@ nav li.active a {
 
 @media (max-width: 900px) {
 .container-top {
-  display: inline-block;
-  font-size: 10px;
+  display: none;
 }
 
 .text-container {
-position:relative;
-line-height: 1;
 font-size: 10px;
 }
 
+
 .background-image {
-  width: 80%;
+ display: none;
 }
 
 .btn-branding {
@@ -305,6 +303,12 @@ font-size: 10px;
 
   .logo-small {
     width: 40%;
+  }
+
+  .hero  {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 0 450px
   }
 
   nav a {
